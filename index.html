@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Adarsh - 16-bit Portfolio</title>
+    <title>Adarsh</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <meta name="description" content="Adarsh A - Cybersecurity Enthusiast & Ethical Hacker Portfolio">
+    <meta name="keywords" content="cybersecurity, ethical hacking, penetration testing, SIEM">
+    <meta name="author" content="Adarsh A">
+    <meta property="og:title" content="Adarsh A - Cybersecurity Portfolio">
+    <meta property="og:description" content="Cybersecurity enthusiast specializing in ethical hacking and digital forensics">
 </head>
 <body>
     <audio id="bg-music" loop>
-        <source src="audio/your-music.mp3" type="audio/mpeg">
+        <source src="audio/your-music.mp3" type="audio/mpeg"> 
     </audio>
 
     <button id="music-control" aria-label="Play/Pause Music">
         <i class="fa-solid fa-play" id="play-icon"></i>
-        <i class="fa-solid fa-pause" id="pause-icon"></i>
+        <i class="fa-solid fa-pause" id="pause-icon" style="display: none;"></i>
     </button>
+    <div class="music-info">Intriguing Possibilities (HD) - From the Soundtrack to "The Social Network"</div>
 
     <div id="container">
         <header>
             <div id="intro">
                 <div class="profile-pic-container">
-                  <img src="images/profile-picture.jpg" alt="Your Pixel Portrait" id="portrait">
+                    <img src="images/profile-picture.jpeg" alt="Your Pixel Portrait" id="portrait">
                 </div>
-                <h1>Adarsh</h1>
-                <p class="blinking">Press Start</p>
-                <p id="gamer-tag" style="display: none;">Gamer Tag: CyberSync</p>
-            </div>
+                <h1>Adarsh A</h1>
+                
+                <h4>Turning curiosity into code, and threats into opportunities.</h4>
+                </div>
         </header>
 
         <nav>
@@ -36,7 +41,7 @@
                 <li><a href="#experience" data-sound="audio/select.mp3">Experience</a></li>
                 <li><a href="#projects" data-sound="audio/select.mp3">Projects</a></li>
                 <li><a href="#skills" data-sound="audio/select.mp3">Skills</a></li>
-                <li><a href="#certifications" data-sound="audio/select.mp3">Certifications & Papers</a></li>
+                <li><a href="#certifications" data-sound="audio/select.mp3">Certifications</a></li>
                 <li><a href="#contact" data-sound="audio/select.mp3">Contact</a></li>
             </ul>
         </nav>
@@ -44,80 +49,77 @@
         <main>
             <section id="about">
                 <h2>About Me</h2>
-                <p>
-                    Welcome to my little corner of the internet! I'm that person who's always caught between debugging code and trying to clutch a 1v5 in Valorant (spoiler alert: the code usually wins, but I'm not giving up on those Valorant highlights just yet).
-                    Speaking of Valorant yes, I'm one of those people who probably spend way too much time perfecting their crosshair placement and debating whether the Vandal or Phantom is superior. If you ever need someone to throw some questionable lineups with, I'm your person!</p>
-                    <p>When I'm not getting owned in ranked matches, I'm diving deep into the fascinating world of AI and programming. Think of me as a tech enthusiast who's equally excited about training neural networks and landing that perfect headshot. There's something incredibly satisfying about both, though AI tends to be slightly more forgiving than Valorant's hit registration (just saying).
-                    I'm on a journey to merge my love for gaming with my passion for programming and AI. Who knows? Maybe one day I'll create an AI that can finally tell me why I really didn't hit that shot when I was clearly on their head.
-                    Fun fact: I probably spend more time reading documentation than I do in Valorant death matches  and that's saying something! But hey, whether it's mastering new programming concepts or finally hitting that perfect spray control, I'm all about that continuous improvement life.
+                <div class="content-wrapper">
+                    <p>
+                        Hey! I'm Adarsh, a cybersec genesis who's deeply passionate about ethical hacking, digital forensics, and understanding how systems tick — and how to break and secure them. From exploring vulnerabilities in web applications to analyzing malware behavior, I thrive on uncovering the details others might miss                    </p>
+                    <p>
+                        Over the past few years, I've gained hands-on experience through internships and personal projects, diving into penetration testing, threat hunting, and even drone forensics. I enjoy combining technical curiosity with real-world problem-solving, always looking for smarter, more secure ways to approach challenges.                    </p>
+                    <p>
+                        Currently exploring the endless possiblities outside of work, I'm constantly experimenting with new tools, learning about emerging threats, and sometimes building tools of my own. I believe that cybersecurity isn't just about defense — it's about creativity, adaptability, and staying one step ahead. Let's build something secure together.Possibilities in AI, breaking (and fixing) code, and occasionally reminding myself that rushing isn't always the answer - in both programming and cybersecurity.
                     </p>
-                    <p>Currently exploring the endless possibilities in AI, breaking (and fixing) code, and occasionally reminding myself that rushing B isn't always the answer  in both programming and Valorant.
-                    Let's connect! Whether you want to discuss the latest AI developments, debate programming best practices, or just need someone to complete your Valorant stack  I'm game for it all! Just don't ask me to play Cypher. Please. I promise I'm better at Python than playing sentinels.</p>
+                    <p>
+                        Let's connect! Whether you want to discuss the latest in cybersecurity, debate programming best practices, or just need someone to complete your security stack - I'm game for it all!
                     </p>
-                </section>
+                </div>
+            </section>
 
             <section id="education">
                 <h2>Education</h2>
-                <div class="education-entry">
-                    <h3>Yenepoya Institue of Arts Science & Commerce, Mangalore</h3>
-                    <p>BSc, Computer Science and Engineering (Cyber Security and Digital Forensics)</p>
-                    <p>2023 - 2026</p>
+                <div class="content-wrapper">
+                    <div class="education-entry">
+                        <h3>Yenepoya Institute of Arts Science & Commerce, Mangalore</h3>
+                        <p>BSc, Computer Science and Engineering (Cyber Security and Digital Forensics)</p>
+                        <p>2023 - 2026</p>
+                    </div>
+                    <div class="education-entry">
+                        <h3>Mar Gregorious Memorial School, Trivandrum, Kerala</h3>
+                        <p>Higher Secondary, Biology Science</p>
+                        <p>2020 - 2022</p>
+                    </div>
                 </div>
-                <div class="education-entry">
-                    <h3>Mar Gregorious Memorial School, Trivandrum, Kerala</h3>
-                    <p>Higher Secondary, Biology Science</p>
-                    <p>2020 - 2022</p>
-                </div>
-                <!-- Add more education entries here -->
             </section>
-            
+
             <section id="experience">
                 <h2>Experience</h2>
-                <div class="experience-entry">
-                    <h3>Position - intern</h3>
-                    <p>Cyber Police Station, Trivandrum</p>
-                    <p>Dec 2023 - Jan 2024</p>
-                    <ul>
-                        <li>Gained practical exposure to cybercrime investigation procedures</li> 
-
-                        <li>Assisted in digital forensics analysis under professional supervision</li> 
-
-                        <li>Learned about real-world cybersecurity incident handling</li> 
-                    </ul>
+                <div class="content-wrapper">
+                    <div class="experience-entry">
+                        <h3>Position - Intern</h3>
+                        <p>Cyber Police Station, Trivandrum</p>
+                        <p>Dec 2023 - Jan 2024</p>
+                        <p>Investigated real-world cybercrime cases, analyzed attack vectors, and contributed to digital evidence collection and malware triage.
+                        </p>
+                        <ul>
+                            <li>Conducted forensic artifact analysis Speacialed tools.</li>
+                            <li> Helped trace digital footprints in real cybercrime investigations</li>
+                            <li>Learned about real-world cybersecurity incident handling</li>
+                        </ul>
+                    </div>
                 </div>
-                                <!-- Add more experience entries here -->
             </section>
-            
 
             <section id="projects">
                 <h2>Projects</h2>
                 <div class="project-grid">
                     <div class="project-item">
-                        <img src="images/project1.png" alt="Project 1 Thumbnail">
+                        <img src="images/project1.jpeg" alt="SIEM Security Platform">
                         <h3>SIEM Security Platform</h3>
-                        <p>Developed and implemented a security monitoring solution using Wazuh and ELK Stack<br>
-
-                            Containerized the application using Docker for easy deployment <br>
-                            
-                            Created an intuitive dashboard for real-time threat monitoring and log analysis</p>
+                        <p>Developed and implemented a security monitoring solution using Wazuh and ELK Stack</p>
+                        <p>Containerized the application using Docker for easy deployment</p>
+                        <p>Created an intuitive dashboard for real-time threat monitoring and log analysis</p>
                     </div>
                     <div class="project-item">
-                        <img src="images/project2.png" alt="Project 2 Thumbnail">
+                        <img src="images/project2.jpeg" alt="Website Security Extension">
                         <h3>Website Security Extension (Chrome)</h3>
-                        <p>Integrated Google Safe Browsing API to develop a real-time website safety analyzer <br>
-
-                            Enhanced web browsing security through proactive threat detection <br>
-                            
-                            Practiced secure coding principles and API integration.</p>
+                        <p>Integrated Google Safe Browsing API to develop a real-time website safety analyzer</p>
+                        <p>Enhanced web browsing security through proactive threat detection</p>
+                        <p>Practiced secure coding principles and API integration</p>
                     </div>
                     <div class="project-item">
-                        <img src="images/project3.png" alt="Project 3 Thumbnail">
-                        <h3>Project Name 3</h3>
-                        <p>Built a credential leak detection system using Python and Hugging Face Transformers <br>
-
-                            Implemented pattern recognition for sensitive data identification (API keys, credit cards, SSNs) <br>
-                            
-                            Demonstrated practical application of AI in cybersecurity </p>
+                        <img src="images/project3.png" alt="Credential Leak Detection">
+                        <h3>Credential Leak Detection System</h3>
+                        <p>Built a credential leak detection system using Python and Hugging Face Transformers</p>
+                        <p>Implemented pattern recognition for sensitive data identification</p>
+                        <p>Demonstrated practical application of AI in cybersecurity</p>
                     </div>
                 </div>
             </section>
@@ -125,8 +127,16 @@
             <section id="skills">
                 <h2>Skills</h2>
                 <ul class="skills-list">
+                    <li><img src="images/C.png" alt="C"> C</li>
+                    <li><img src="images/burp.jpeg" alt="Burpsuite"> Burpsuite</li>
+                    <li><img src="images/wireshark.jpeg" alt="Wireshark"> Wireshark</li>
+                    <li><img src="images/kali.png" alt="Kali"> Kali Linux</li>
+                    <li><img src="images/bash.png" alt="Bash"> Bash</li>
+                    <li><img src="images/python.png" alt="Python"> Python</li>
+                    <li><img src="images/wazuh.png" alt="SIEM"> Wazuh</li>
+                    <li><img src="images/osint.png" alt="osint"> OSINT</li>
                     <li><img src="images/js-icon.png" alt="JavaScript"> JavaScript</li>
-                    <li><img src="images/html (1).jpg" alt="HTML"> HTML</li>
+                    <li><img src="images/html.png" alt="HTML"> HTML</li>
                     <li><img src="images/css-icon.png" alt="CSS"> CSS</li>
                     <li><img src="images/react-icon.png" alt="React"> React</li>
                     <li><img src="images/nodejs-icon.png" alt="Node.js"> Node.js</li>
@@ -135,60 +145,40 @@
             </section>
 
             <section id="certifications">
-                <h2>Certifications & Papers</h2>
-                <div class="certification-entry">
-                    <h3>Certified Penetration Tester (CPT) - RedTeam</h3>
-                    <p>Advanced web application and network penetration testing, vulnerability management, wireless security, Docker security, thick-client pen testing, and cloud security.</p>
+                <h2>Certifications</h2>
+                <div class="content-wrapper">
+                    <div class="certification-entry">
+                        <h3>Certified Penetration Tester (CPT) - RedTeam</h3>
+                        <p>Advanced web application and network penetration testing, vulnerability management, wireless security, Docker security, thick-client pen testing, and cloud security.</p>
+                    </div>
+                    <div class="certification-entry">
+                        <h3>Cyber Security Analyst - IBM (Coursera)</h3>
+                        <p>Hands-on expertise in tools like SIEM, endpoint protection, incident response, and penetration testing.</p>
+                    </div>
+                    <p>Many more coursera certificates associated with cybersecurity, AI, and programming                    </p>
                 </div>
-                <div class="certification-entry">
-                    <h3>Cyber Security Analyst - IBM (Coursera) </h3>
-                    <p>Hands-on expertise in tools like SIEM, endpoint protection, incident response, and penetration testing.</p>
-                </div>
-                <!-- Add more certification entries here -->
-                <div class="paper-entry">
-                    <h3>Open-Source Intelligence</h3>
-                    <p>Published in:Year 2024</p>
-                    <p><a href="link-to-paper" target="_blank">Read Paper</a></p>
-                </div>
-                <div class="paper-entry">
-                    <h3>Adversarial Machine Learning in Cybersecurity</h3>
-                    <p>Published in:Year 2025</p>
-                    <p><a href="link-to-paper" target="_blank">Read Paper</a></p>
-                </div>
-                <!-- Add more paper entries here -->
             </section>
-            
 
             <section id="contact">
                 <h2>Contact</h2>
-                <p>Feel free to reach out to me via email or connect with me on social media. I'm always open to discussing new opportunities and projects.</p>
-                <p>Email: adarshanil.963@gmail.com</p>
-                <ul class="social-links">
-                    <li><a href="https://www.linkedin.com/in/adarsh-shahi-a78275248/" target="_blank" data-sound="audio/select.mp3"><img src="images/linkedin-icon.png" alt="LinkedIn"></a></li>
-                    <li><a href="https://github.com/CyberSync14" target="_blank" data-sound="audio/select.mp3"><img src="images/github-icon.png" alt="GitHub"></a></li>
-                    <li><a href="https://www.instagram.com/adarsh__s_h_a_h_i/" target="_blank" data-sound="audio/select.mp3"><img src="images/instagram-icon.png" alt="Instagram"></a></li>
+                <div class="content-wrapper">
+                    <p>Feel free to reach out to me via email or connect with me on social media. Just ping me for new opportunities and projects.</p>
+                    <p>Email: adarshanil.963@gmail.com</p>
+                    <div class="resume-buttons">
+                        <a href="resume.pdf" class="resume-btn" target="_blank" data-sound="audio/select.mp3">
+                            <i class="fas fa-eye"></i> View Resume  
+                        </a>
+                        <a href="resume.pdf" class="resume-btn" download data-sound="audio/select.mp3">
+                            <i class="fas fa-download"></i> Download Resume
+                        </a>
+                    </div>
+                    <ul class="social-links">
+                        <li><a href="https://www.linkedin.com/in/adarsh-336699an" target="_blank" data-sound="audio/select.mp3"><img src="images/ilnkedin-icon.png" alt="LinkedIn"></a></li>
+                        <li><a href="https://github.com/XYDEN-666" target="_blank" data-sound="audio/select.mp3"><img src="images/github-icon.png" alt="GitHub"></a></li>
+                        <li><a href="https://www.instagram.com/adarsh._.an/" target="_blank" data-sound="audio/select.mp3"><img src="images/instagram-icon.png" alt="Instagram"></a></li>
                     </ul>
-            </section>
-            <section id="mini-games">
-                <h2>Mini-Games</h2>
-                <p>Take a break and try out these mini-games!</p>
-                <div class="game-container">
-                    <h3>Click the Dot</h3>
-                    <p id="game-1-instructions">Click the <span id="target-color">red</span> dot as fast as you can!</p>
-                    <canvas id="game-1-canvas" width="300" height="200"></canvas>
-                    <p>Your Time: <span id="game-1-time">0</span> ms</p>
-                </div>
-            
-                <div class="game-container">
-                    <h3>Color Matcher</h3>
-                    <p>Match the colors within the time limit!</p>
-                    <div id="color-match-target"></div>
-                    <div id="color-match-options"></div>
-                    <p>Time Left: <span id="color-match-timer">10</span></p>
-                    <p>Score: <span id="color-match-score">0</span></p>
                 </div>
             </section>
-            
         </main>
 
         <footer>
